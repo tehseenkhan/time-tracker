@@ -24,11 +24,6 @@ public class Tracker {
     }
 
     public TimeEntry get(int index) {
-        
-        boolean valid = false;
-        if (vallid == true) {
-        //edited for test purpose
-        }
         return entries.get(index);
     }
 }
